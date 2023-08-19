@@ -1,0 +1,36 @@
+.sc-il-tr-image {
+	margin-bottom: 2rem;
+	img {
+		max-height: 300px;	
+		margin: auto;
+		display: block;	
+	}
+	.components-button {
+		background-color: #3858e9;
+		color: #FFF;
+	}
+}
+
+@media(min-width: 768px) {
+
+.wp-block[data-title="Image Left Text Right"] {
+	display: flex;
+	flex-direction: row;
+	border: 1px dotted;
+	.sc-il-tr-image-wrapper {
+		border-right: 1px dotted;
+		width: 50%;
+		.sc-il-tr-image {
+			img {
+				max-height: none;
+			}
+		}		
+	}
+	.sc-il-tr-text {
+		width: 50%;
+		padding-left: 2rem;
+	}
+
+}
+
+}

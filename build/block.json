@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/sc-image-left-text-right",
+  "version": "0.1.0",
+  "title": "Sc Image Left Text Right",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A Gutenberg block that adds a 2 column image and text section.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "sc-image-left-text-right",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

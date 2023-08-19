@@ -1,0 +1,31 @@
+.sc-image-left-text-right-wrapper {
+	display: flex;
+	flex-direction: column;
+	.sc-il-tr-image {
+		margin-bottom: 2rem;
+		img {
+			max-height: 300px;	
+			margin: auto;
+			display: block;	
+		}
+	}
+	.sc-il-tr-text {
+
+	}
+}
+
+@media(min-width: 768px) {
+.sc-image-left-text-right-wrapper {
+	flex-direction: row;
+	.sc-il-tr-image {
+		width: 50%;		
+		img {
+			max-height: none;		
+		}	
+	}
+	.sc-il-tr-text {
+		width: 50%;
+		padding-left: 2rem;
+	}
+}
+}
